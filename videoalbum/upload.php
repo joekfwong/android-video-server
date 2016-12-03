@@ -6,7 +6,7 @@ if ($_FILES["file"]["error"] > 0)
 	
 } else {
 
-	$user = $_POST["username"];
+	$user = strtolower($_POST["username"]);
 	if (!is_dir("videos/")) {
 		mkdir("videos/");
 		chmod("videos/", 0755);

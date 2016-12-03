@@ -1,5 +1,4 @@
 <?php
-/* Step 4.1 Start */
 $db_server = "sophia.cs.hku.hk";
 $db_user = "kfwong";
 $db_pwd = "joemysql";

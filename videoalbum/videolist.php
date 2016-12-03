@@ -29,7 +29,6 @@ if ($username != "") {
 		$add_delimiter = true;
 	}
 	echo ']';
-	/* Step 4.2 End */
 	echo '}';
 }
 ?>

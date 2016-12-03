@@ -7,7 +7,6 @@ foreach (new RecursiveIteratorIterator($di) as $filename => $file) {
 	if (is_dir($file)) {
 		continue;
 	}
-	//echo $filename . ' - ' . $file->getSize() . ' bytes <br/>';
 	$results_array[] = $filename;
 }
 
@@ -18,6 +17,5 @@ for ($i=0; $i<count($results_array); $i++) {
 	$add_delimiter = true;
 }
 echo ']';
-/* Step 4.2 End */
 echo '}';
 ?>
