@@ -25,7 +25,7 @@ if ($username != "") {
 		
 		if ($results_array[$i] == "..") continue;
 		
-		echo ($add_delimiter ? ', ' : '') . '"' . $results_array[$i] . '"';
+		echo ($add_delimiter ? ', ' : '') . '"' .$log_directory.'/'. $results_array[$i] . '"';
 		$add_delimiter = true;
 	}
 	echo ']';
